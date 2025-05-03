@@ -12,7 +12,7 @@ hls:HLS;
     private streamingService:StreamingService
   ) { 
      this.hls=new HLS({
-      maxBufferLength: 10,
+      maxBufferLength: 3,
       maxMaxBufferLength: 60, // Set a cap for the buffer length
      
       autoStartLoad:false
